@@ -1,0 +1,491 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+* {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+/* CLASSES */
+
+.header--logoMain {
+  height: 100px;
+  width: auto;
+}
+
+.header--logosMini {
+  height: 30px;
+  width: auto;
+}
+
+.h2--important {
+  background-color: #000000;
+  color: #fffAFA;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* ----------SOLUCION PROVISORIA ANTES DE GRID PARA CLAVAR EL FOOTER ABAJO DE TODO */
+.footer--fixed {
+  position: fixed;
+}
+
+
+.footer__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer__h3--contacto{
+  height: 30px;
+  width: 30px;
+}
+
+/* CLASSES INDEX */
+
+.main__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main__div__divBoxImage {
+  margin: 5% 5% 5% auto;
+}
+
+.main__div__divImage {
+  height: 600px;
+  width: 25vw;
+  border-radius: 30px;
+}
+
+.main__div__divText {
+  background-color: #715845;
+  width: 25vw;
+  flex-direction: column;
+  align-self: center;
+  margin: 5% auto 5% 5%;
+  border-radius: 30px;
+  padding: 10px 100px;
+}
+
+.main__div__div__divTitle {
+  margin: 20px 0px;
+}
+
+.main__div__div__divh2 {
+  color: #fffAFA;
+  text-align: center;
+  text-decoration: underline 2px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.main__div__div__divParagraph {
+  margin: 20px 0px;
+}
+
+.main__div__div__divText1 {
+  color: #fffAFA;
+  text-align: center;
+}
+
+.main__div__div__divButton {
+  margin: 20px 0px;
+}
+
+.main__div__div__divButtonText {
+  color: #fffAFA;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+.main__div__div__divButtonText--a {
+  color: #fffAFA;
+}
+
+.section--index {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.section__article {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__article__divImage {
+  height: 210px;
+  width: 150px;
+}
+
+.section__article__div__p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.section__article__div--span {
+  text-decoration: line-through 1px solid;
+  color:#838383;
+  margin-left: 20px;
+}
+
+.section__article__div--description {
+  margin-top: 10px;
+}
+
+/* CLASSES CATALOGO */
+
+.main--catalogo {
+  display:flex;
+  flex-direction: row;
+}
+
+.main__div--catalogoForm {
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  left: 10px;
+  font-weight: 800;
+  height: auto;
+  width: 15%;
+  border-right: 2px solid #000000;
+  margin-top: 5vh;
+}
+
+.main__div__form__div {
+  display: flex;
+  margin: 25px 0px;
+}
+
+.main__div__form__div--start {
+  justify-content: flex-start;
+}
+
+.main__div__form__div--center {
+  justify-content: space-around;
+}
+
+.main__div--catalogo {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.main__div__div--catalogo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main__div--catalogoClothes {
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+}
+
+/* CLASSES QUIENES SOMOS */
+
+.main--qs, .main__div--tt{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 5% 5%;
+  max-width: 100%;
+}
+
+.main__divImage--qs {
+  display: flex;
+  width: 50vw;
+  height: auto;
+  justify-content: center;
+}
+
+.main__div__divImage--qs {
+  width: 70%;
+  height: 75vh; 
+  border-radius: 30px;
+}
+
+.main__divText--qs {
+  display: flex;
+  width: 30%;
+  height: 300px;
+  background-color: #715845;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.main__div__h3--qs {
+  margin: 25px 20px;
+}
+
+.main__div__p--qs {
+  line-height: 20px;
+}
+
+/* CLASSES TABLA DE TALLES */
+
+.main__div--tt{
+  justify-content: center;
+  height: auto;
+
+}
+
+.main__div__div__image--tt {
+  height: 350px;
+  width: auto;
+}
+
+.main__div__div--tablediv {
+  align-self: center;
+  height: 350px;
+}
+
+.main__div__div__table--text {
+  text-align: center;
+  padding: 25px 35px;
+  border: 1px solid #000000;
+}
+
+/* CLASSES CLUB MONA */
+
+.main--clubmona {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+  height: auto;
+}
+
+.main__div--formClubMona{
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  color: #fffAFA;
+  background-color: #715845;
+  border-radius: 30px;
+  line-height: 50px;
+  padding: 10% 5%;
+}
+
+.main__div__div--imagesClubMona {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__div__div__div--imagesClubMona {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.main__div__div--imageClubMonaMain {
+  width: 800px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.main__div__div__div--imageClubMonaAhora12 {
+  width: 450px;
+  height: 300px;
+  border-radius: 30px;
+  margin-right: 25px;
+}
+
+.main__div__div__div--imageClubMonaCA {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-left: 25px;
+}
+
+/* ETIQUETAS GLOBALES */
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  background-color: #fffAFA;
+}
+
+
+header div{
+  display: flex;
+  justify-content: space-between;
+}
+
+header div h1 {
+  text-align: center;
+  align-self: flex-end;
+  font-size: 35px;
+  color: #715845;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #715845;
+  text-align: center;
+  z-index: 999;
+  position: sticky;
+}
+
+nav ul li {
+  display: inline-flex;
+  padding: 10px 0px;
+  margin: 0px 25px;
+  text-decoration: underline 3px;
+}
+
+nav ul li a {
+  color: #fffafa;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fffAFA;
+  background-color: #715845;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: center;
+}
+
+footer h3 a{
+  color: #fffAFA;
+}
