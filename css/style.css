@@ -454,11 +454,14 @@ nav ul li {
   padding: 10px 0px;
   margin: 0px 25px;
   text-decoration: underline 2px;
-  width:auto;
 }
 
 nav ul li a {
   color: #fffafa;
+}
+
+nav ul li a:hover {
+  color: #fffAFA;
 }
 
 footer {
