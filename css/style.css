@@ -136,11 +136,6 @@ table {
   width: auto;
 }
 
-.header--logosMini {
-  height: 30px;
-  width: auto;
-}
-
 .h2--important {
   background-color: #000000;
   color: #fffAFA;
@@ -161,8 +156,9 @@ table {
 }
 
 .footer__h3--contacto{
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
 }
 
 /* CLASSES INDEX */
@@ -255,7 +251,7 @@ table {
 .section__article__div--span {
   text-decoration: line-through 1px solid;
   color:#838383;
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 
 .section__article__div--description {
@@ -264,34 +260,21 @@ table {
 
 /* CLASSES CATALOGO */
 
-.main--catalogo {
-  display:flex;
-  flex-direction: row;
+.card--custom{
+  width: 12rem;
 }
+
+/* GRID */
 
 .main__div--catalogoForm {
-  display:flex;
-  flex-direction: column;
-  position: relative;
-  left: 10px;
+  height: 100%;
   font-weight: 800;
-  height: auto;
-  width: 15%;
+  width: 20%;
   border-right: 2px solid #000000;
-  margin-top: 5vh;
 }
 
-.main__div__form__div {
-  display: flex;
-  margin: 25px 0px;
-}
-
-.main__div__form__div--start {
-  justify-content: flex-start;
-}
-
-.main__div__form__div--center {
-  justify-content: space-around;
+.main__div__form__div__input {
+  width: 100%;
 }
 
 .main__div--catalogo {
@@ -310,6 +293,10 @@ table {
   display: flex;
   flex-direction: column;
   margin: 25px auto;
+}
+
+.section__article__divImage {
+  align-self: center;
 }
 
 /* CLASSES QUIENES SOMOS */
@@ -438,6 +425,7 @@ body {
   width: 100vw;
   max-width: 100%;
   background-color: #fffAFA;
+  min-height: 100vh;
 }
 
 
@@ -465,7 +453,8 @@ nav ul li {
   display: inline-flex;
   padding: 10px 0px;
   margin: 0px 25px;
-  text-decoration: underline 3px;
+  text-decoration: underline 2px;
+  width:auto;
 }
 
 nav ul li a {
@@ -484,8 +473,12 @@ footer {
   width: 100vw;
   max-width: 100%;
   justify-content: center;
+  padding: 5px;
 }
 
+footer h3 {
+  font-weight: normal;
+}
 footer h3 a{
   color: #fffAFA;
 }
