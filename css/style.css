@@ -141,11 +141,19 @@ table {
   transform: scale(0.9);
 }
 
+.div__h2{
+  background-color: #000000;
+  overflow: hidden;
+}
+
 .h2--important {
   background-color: #000000;
   color: #fffAFA;
-  text-align: center;
+  display: inline-block;
   font-weight: 700;
+  animation: marquee 13s linear infinite;
+  padding-left: 100%;
+  white-space: nowrap;
 }
 
 /* ----------SOLUCION PROVISORIA ANTES DE GRID PARA CLAVAR EL FOOTER ABAJO DE TODO */
@@ -168,6 +176,24 @@ table {
 
 /* CLASSES INDEX */
 
+.div__carousel {
+  max-width: 45rem;
+  max-height: 35rem;
+}
+
+.carousel-inner {
+  max-width: 45rem;
+  max-height: 35rem;
+}
+.carousel-inner .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner .carousel-item img {
+  object-fit: contain;
+}
+
 .main__div {
   display: flex;
   flex-direction: row;
@@ -186,12 +212,11 @@ table {
 
 .main__div__divText {
   background-color: #715845;
-  width: 25vw;
   flex-direction: column;
   align-self: center;
-  margin: 5% auto 5% 5%;
   border-radius: 30px;
-  padding: 10px 100px;
+  padding: 10px 5rem;
+  max-width: 600px;
 }
 
 .main__div__div__divTitle {
@@ -230,20 +255,9 @@ table {
   color: #fffAFA;
 }
 
-.section--index {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
 .section__article {
   display: flex;
   flex-direction: column;
-}
-
-.section__article__divImage {
-  height: 210px;
-  width: 150px;
 }
 
 .section__article__div__p {
@@ -266,42 +280,28 @@ table {
 /* CLASSES CATALOGO */
 
 .card--custom{
-  width: 12rem;
+  width: 14rem;
 }
 
-/* GRID */
+.main--catalogo{
+  justify-content: space-around;
+}
 
 .main__div--catalogoForm {
   height: 100%;
   font-weight: 800;
-  width: 20%;
-  border-right: 2px solid #000000;
 }
 
 .main__div__form__div__input {
   width: 100%;
 }
 
-.main__div--catalogo {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-}
 
-.main__div__div--catalogo1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .main__div--catalogoClothes {
   display: flex;
   flex-direction: column;
   margin: 25px auto;
-}
-
-.section__article__divImage {
-  align-self: center;
 }
 
 /* CLASSES QUIENES SOMOS */
@@ -447,7 +447,7 @@ header div h1 {
   font-weight: bold;
 }
 
-nav {
+/* nav {
   background-color: #715845;
   text-align: center;
   z-index: 999;
@@ -466,7 +466,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  color: #bbbbbb;
+} */
+
+.body__nav {
+  background-color: #715845;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+
+.nav__div__div__li--a{
   color: #fffAFA;
+  text-decoration: underline 2px #fffAFA;
+}
+
+.nav__div__div__li--a:hover{
+  color: #bbb;
+  text-decoration: underline 2px #bbb;
 }
 
 footer {
@@ -489,4 +506,10 @@ footer h3 {
 }
 footer h3 a{
   color: #fffAFA;
+}
+
+@keyframes marquee{
+  100%{
+    transform: translate(-100%, 0);
+  }
 }

@@ -48,146 +48,165 @@
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./catalogo.html">CATÁLOGO</a></li>
-            <li><a href="./tabla-de-talles.html">TABLA DE TALLES</a></li>
-            <li><a href="./quienes-somos.html">QUIENES SOMOS?</a></li>
-            <li><a href="./club-mona.html">CLUB MONA</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-light pt-0 pb-0">
+        <div class="container-fluid p-0 body__nav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-around">
+                        <li class="nav-item d-flex justify-content-center">
+                        <a class="nav-link nav__div__div__li--a" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                        <a class="nav-link nav__div__div__li--a" href="./catalogo.html">CATÁLOGO</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                        <a class="nav-link nav__div__div__li--a" href="./tabla-de-talles.html">TABLA DE TALLES</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                        <a class="nav-link nav__div__div__li--a" href="./quienes-somos.html">QUIENES SOMOS?</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                        <a class="nav-link nav__div__div__li--a" href="./club-mona.html">CLUB MONA</a>
+                        </li>
+                    </ul>
+            </div>
+            
+        </div>
     </nav>
 
-    <h2 class="h2--important">Envíos gratis en compras mayores a $10.000.-</h2>
-
-    <main class="container mt-4">
-        <div class="main__div--catalogoForm grid ms-0 pe-4 col-4">
+    <div class="div__h2">
+        <h2 class="h2--important">Envíos gratis en compras mayores a $10.000.-</h2>
+    </div>
+    
+    <main class="container mt-4 mh-100">
+        
+        <div class="row">
+            <div class="main__div--catalogoForm pe-5 pe-2 ps-2 col-12 col-md-3 animate__animated animate__fadeIn">
             <!-- FORMULARIO -->
-            <form>
-                <div class="mb-3">
-                    <label for="Prenda">Prenda</label>
-                    <select name="Prenda" id="tipoDePrenda" class="main__div__form__div__input ms-2 mt-3">
-                        <option value="prendaNone"></option>
-                        <option value="remera">Remera</option>
-                        <option value="blusa">Blusa</option>
-                        <option value="camisa">Camisa</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="Talle">Talle</label>
-                    <select name="talle" id="talleDePrenda" class="main__div__form__div__input ms-2 mt-3">
-                        <option value="talleNone"></option>
-                        <option value="talleS">S</option>
-                        <option value="talleM">M</option>
-                        <option value="talleL">L</option>
-                        <option value="talleXL">XL</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="Color">Color</label>
-                    <select name="color" id="colorDePrenda" class="main__div__form__div__input ms-2 mt-3">
-                        <option value="colorNone"></option>
-                        <option value="blanco">Blanco</option>
-                        <option value="celeste">Celeste</option>
-                        <option value="ladrillo">Ladrillo</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="precioMax">Precio máximo</label>
-                    <input type="number" id="precioMax" class="main__div__form__div__input ms-2 mb-3">
-                </div>
-                <div class="mb-3">
-                    <input type="submit" name="submit" id="submitForm mb-3">
-                    <input type="reset">
-                </div>
-            </form>
-        </div>
-        <div class="main__div--catalogo grid">
-            <!-- ROPA -->
-            <div class="main__div__div--catalogo1 grid">
-
-<!-- 1 -->
-                <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article1.jpeg" class="card-img-top section__article__divImage" alt="Remera Babilonia">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$5000<span class="section__article__div--span">$5500</span></p>
-                    <p class="card-title mt-1">Remera Babilonia</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                <form>
+                    <div class="mb-3">
+                        <label for="Prenda">Prenda</label>
+                        <select name="Prenda" id="tipoDePrenda" class="main__div__form__div__input ms-2 mt-3">
+                            <option value="prendaNone"></option>
+                            <option value="remera">Remera</option>
+                            <option value="blusa">Blusa</option>
+                            <option value="camisa">Camisa</option>
+                        </select>
                     </div>
-                </article>
-                <!-- 2 -->
-
-                <article class="card col-2 card--custom mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article2.jpeg" class="card-img-top section__article__divImage" alt="Camisa Aegis">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$9000<span class="section__article__div--span">$10500</span></p>
-                    <p class="card-title mt-1">Camisa Aegis</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                    <div class="mb-3">
+                        <label for="Talle">Talle</label>
+                        <select name="talle" id="talleDePrenda" class="main__div__form__div__input ms-2 mt-3">
+                            <option value="talleNone"></option>
+                            <option value="talleS">S</option>
+                            <option value="talleM">M</option>
+                            <option value="talleL">L</option>
+                            <option value="talleXL">XL</option>
+                        </select>
                     </div>
-                </article>
-
-                <!-- 3 -->
-                <article class="card col-2 card--custom mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article3.jpeg" class="card-img-top section__article__divImage" alt="Blusa Amantis">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
-                    <p class="card-title mt-1">Blusa Amantis</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                    <div class="mb-3">
+                        <label for="Color">Color</label>
+                        <select name="color" id="colorDePrenda" class="main__div__form__div__input ms-2 mt-3">
+                            <option value="colorNone"></option>
+                            <option value="blanco">Blanco</option>
+                            <option value="celeste">Celeste</option>
+                            <option value="ladrillo">Ladrillo</option>
+                        </select>
                     </div>
-                </article>
-
-                <!-- 4 -->
-                <article class="card col-2 card--custom mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article4.jpeg" class="card-img-top section__article__divImage" alt="Blusa Nefertiti">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
-                    <p class="card-title mt-1">Blusa Nefertiti</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                    <div class="mb-3">
+                        <label for="precioMax">Precio máximo</label>
+                        <input type="number" id="precioMax" class="main__div__form__div__input ms-2 mt-3">
                     </div>
-                </article>
+                    <div class="mt-4 text-center">
+                        <input type="submit" name="submit" id="submitForm mb-3">
+                        <input type="reset">
+                    </div>
+                </form>
             </div>
 
-            <div class="main__div__div--catalogo1 container">
-                <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article1.jpeg" class="card-img-top section__article__divImage" alt="Remera Babilonia">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$5000<span class="section__article__div--span">$5500</span></p>
-                    <p class="card-title mt-1">Remera Babilonia</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
-                    </div>
-                </article>
+            <div class="col-12 col-md-9 ">
+                <div class="row main--catalogo">
+                    <article class="card card--custom col-12 col-lg-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article1.jpeg" class="card-img-top " alt="Remera Babilonia">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$5000<span class="section__article__div--span">$5500</span></p>
+                        <p class="card-title mt-1">Remera Babilonia</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
+                <!-- 2 -->
+
+                    <article class="card card--custom col-12 col-lg-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article2.jpeg" class="card-img-top " alt="Camisa Aegis">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$9000<span class="section__article__div--span">$10500</span></p>
+                        <p class="card-title mt-1">Camisa Aegis</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
+
+                <!-- 3 -->
+                    <article class="card card--custom col-12 col-lg-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article3.jpeg" class="card-img-top " alt="Blusa Amantis">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
+                        <p class="card-title mt-1">Blusa Amantis</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
+
+                <!-- 4 -->
+                    <article class="card card--custom col-12 col-lg-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article4.jpeg" class="card-img-top " alt="Blusa Nefertiti">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
+                        <p class="card-title mt-1">Blusa Nefertiti</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
+                    <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article1.jpeg" class="card-img-top " alt="Remera Babilonia">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$5000<span class="section__article__div--span">$5500</span></p>
+                        <p class="card-title mt-1">Remera Babilonia</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
     
-                <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article2.jpeg" class="card-img-top section__article__divImage" alt="Camisa Aegis">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$9000<span class="section__article__div--span">$10500</span></p>
-                    <p class="card-title mt-1">Camisa Aegis</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
-                    </div>
-                </article>
+                    <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article2.jpeg" class="card-img-top " alt="Camisa Aegis">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$9000<span class="section__article__div--span">$10500</span></p>
+                        <p class="card-title mt-1">Camisa Aegis</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
     
-                <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article3.jpeg" class="card-img-top section__article__divImage" alt="Blusa Amantis">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
-                    <p class="card-title mt-1">Blusa Amantis</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
-                    </div>
-                </article>
+                    <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article3.jpeg" class="card-img-top " alt="Blusa Amantis">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
+                        <p class="card-title mt-1">Blusa Amantis</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
             
-                <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
-                    <img src="../images/article4.jpeg" class="card-img-top section__article__divImage" alt="Blusa Nefertiti">
-                    <div class="card-body section__article__div__p">
-                    <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
-                    <p class="card-title mt-1">Blusa Nefertiti</p>
-                    <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
-                    </div>
-                </article>
+                    <article class="card card--custom col-2 mt-4 animate__animated animate__fadeIn">
+                        <img src="../images/article4.jpeg" class="card-img-top " alt="Blusa Nefertiti">
+                        <div class="card-body section__article__div__p">
+                        <p class="card-title">$7000<span class="section__article__div--span">$8000</span></p>
+                        <p class="card-title mt-1">Blusa Nefertiti</p>
+                        <a href="#" class="btn btn-primary mt-2">COMPRAR</a>
+                        </div>
+                    </article>
+                </div>
+        
             </div>
         </div>
     </main>
 
-    <footer class="footer--fixed">
+    <footer>
         <h3>Medios de pago:</h3>
         <p>Transferencia - Mercadopago - Visa - Mastercard - Cabal - Tarjeta Naranja</p>
         <div class="footer__div">
