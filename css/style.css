@@ -141,11 +141,19 @@ table {
   transform: scale(0.9);
 }
 
+.div__h2{
+  background-color: #000000;
+  overflow: hidden;
+}
+
 .h2--important {
   background-color: #000000;
   color: #fffAFA;
-  text-align: center;
+  display: inline-block;
   font-weight: 700;
+  animation: marquee 13s linear infinite;
+  padding-left: 100%;
+  white-space: nowrap;
 }
 
 /* ----------SOLUCION PROVISORIA ANTES DE GRID PARA CLAVAR EL FOOTER ABAJO DE TODO */
@@ -269,7 +277,9 @@ table {
   width: 12rem;
 }
 
-/* GRID */
+.main--catalogo{
+  justify-content: space-between;
+}
 
 .main__div--catalogoForm {
   height: 100%;
@@ -282,17 +292,7 @@ table {
   width: 100%;
 }
 
-.main__div--catalogo {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-}
 
-.main__div__div--catalogo1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .main__div--catalogoClothes {
   display: flex;
@@ -466,7 +466,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #fffAFA;
+  color: #bbbbbb;
 }
 
 footer {
@@ -489,4 +489,10 @@ footer h3 {
 }
 footer h3 a{
   color: #fffAFA;
+}
+
+@keyframes marquee{
+  100%{
+    transform: translate(-100%, 0);
+  }
 }
