@@ -447,28 +447,6 @@ header div h1 {
   font-weight: bold;
 }
 
-/* nav {
-  background-color: #715845;
-  text-align: center;
-  z-index: 999;
-  position: sticky;
-}
-
-nav ul li {
-  display: inline-flex;
-  padding: 10px 0px;
-  margin: 0px 25px;
-  text-decoration: underline 2px;
-}
-
-nav ul li a {
-  color: #fffafa;
-}
-
-nav ul li a:hover {
-  color: #bbbbbb;
-} */
-
 .body__nav {
   background-color: #715845;
   display: inline-block;
