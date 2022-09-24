@@ -181,6 +181,17 @@ table {
   max-height: 35rem;
 }
 
+.btn-primary {
+  --bs-btn-border-color: #715845;
+  --bs-btn-bg: #715845;
+  --bs-btn-hover-bg: #684556;
+  --bs-btn-hover-border-color: #684556;
+  --bs-btn-active-bg: #706765;
+  --bs-btn-active-border-color: #716765;
+  --bs-btn-disabled-bg: #715845;
+  --bs-btn-disabled-border-color: #715845;
+}
+
 .carousel-inner {
   max-width: 45rem;
   max-height: 35rem;
