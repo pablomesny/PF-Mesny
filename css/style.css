@@ -359,10 +359,18 @@ table {
 
 /* CLASSES TABLA DE TALLES */
 
-.main__div--tt{
-  justify-content: center;
-  height: auto;
+.main__tablaDeTalles__div {
+  border-radius: 25px;
+  background-color: #715845;
+  height: 3rem;
+  text-decoration: underline 3px #fffafa;
+  width: 30rem;
+}
 
+.main__tablaDeTalles--h3 {
+  font-weight: 700;
+  color: #fffAFA;
+  font-size: 25px;
 }
 
 .main__div__div__image--tt {
@@ -371,7 +379,6 @@ table {
 }
 
 .main__div__div--tablediv {
-  align-self: center;
   height: 350px;
 }
 
@@ -379,6 +386,29 @@ table {
   text-align: center;
   padding: 25px 35px;
   border: 1px solid #000000;
+}
+
+.main__div__tablaDeTalles__consulta {
+  background-color: #715845;
+  border-radius: 25px;
+  width: 35rem;
+}
+
+.main__div__tablaDeTalles__consulta__text {
+  color:#fffAFA;
+}
+
+.main__div__tablaDeTalles__consulta__text--underline {
+  text-decoration: underline 3px #fffafa;
+}
+
+.main__div__tablaDeTalles__consulta__text--href {
+  text-decoration: none;
+  color: #fffafa;
+}
+
+.main__div__tablaDeTalles__consulta__text--href:hover {
+  color: #fffafa;
 }
 
 /* CLASSES CLUB MONA */
