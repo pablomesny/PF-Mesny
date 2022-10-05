@@ -413,13 +413,33 @@ table {
   border-radius: 30px;
 }
 
+.formClubMona {
+  width: 100%;
+  height: 2rem;
+}
+
+.formClubMona--button {
+  height: 2rem;
+  line-height: 2rem;
+}
+
 /* ETIQUETAS GLOBALES */
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   max-width: 100%;
   background-color: #fffAFA;
   min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 

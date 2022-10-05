@@ -87,19 +87,19 @@
             <form>
                 <div>
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" value="" placeholder="Ingrese su nombre.." required="">
+                    <input type="text" id="nombre" value="" placeholder="Ingrese su nombre.." required="" class="formClubMona">
                 </div>
                 <div>
                     <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" value="" placeholder="Ingrese su apellido.." required="">
+                    <input type="text" id="apellido" value="" placeholder="Ingrese su apellido.." required="" class="formClubMona">
                 </div>
                 <div>
                     <label for="correo">Correo electrónico</label>
-                    <input type="email" id="correo" value="" placeholder="ejemplo@mail.com" required="">
+                    <input type="email" id="correo" value="" placeholder="ejemplo@mail.com" required="" class="formClubMona">
                 </div>
                 <div>
                     <label for="provincia">Provincia</label>
-                    <select name="provincia" id="" required="">
+                    <select name="provincia" id="" required="" class="formClubMona">
                         <option value="undefined"></option>
                         <option value="" id="santafe">Santa Fe</option>
                         <option value="" id="buenosaires">Buenos Aires</option>
@@ -114,9 +114,13 @@
                     <label for="termycond">Acepto los términos y condiciones</label>
                     <input type="checkbox" id="termycond" value="" required="">
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar todo">
+                <div class="d-flex align-items-center justify-content-evenly formClubMona--buttons">
+                    <div>
+                        <input type="submit" value="Enviar" class="formClubMona--button">
+                    </div>
+                    <div>
+                        <input type="reset" value="Borrar todo" class="formClubMona--button">
+                    </div>
                 </div>
                 
             </form>
