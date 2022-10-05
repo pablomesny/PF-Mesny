@@ -387,56 +387,30 @@ table {
 
 /* CLASSES CLUB MONA */
 
-.main--clubmona {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2%;
-  height: auto;
-}
-
 .main__div--formClubMona{
   flex-direction: column;
-  align-self: center;
-  text-align: center;
+  align-items: center;
   color: #fffAFA;
   background-color: #715845;
   border-radius: 30px;
   line-height: 50px;
-  padding: 10% 5%;
-}
-
-.main__div__div--imagesClubMona {
-  display: flex;
-  flex-direction: column;
-}
-
-.main__div__div__div--imagesClubMona {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  height: 600px;
 }
 
 .main__div__div--imageClubMonaMain {
-  width: 800px;
   height: 300px;
   border-radius: 30px;
 }
 
+
 .main__div__div__div--imageClubMonaAhora12 {
-  width: 450px;
   height: 300px;
   border-radius: 30px;
-  margin-right: 25px;
 }
 
 .main__div__div__div--imageClubMonaCA {
-  width: 300px;
   height: 300px;
   border-radius: 30px;
-  margin-left: 25px;
 }
 
 /* ETIQUETAS GLOBALES */
@@ -487,11 +461,10 @@ footer {
   background-color: #715845;
   margin-top: 50px;
   position: relative;
-  bottom: 0px;
+  bottom: 0;
   width: 100vw;
   max-width: 100%;
   justify-content: center;
-  padding: 5px;
 }
 
 footer h3 {
