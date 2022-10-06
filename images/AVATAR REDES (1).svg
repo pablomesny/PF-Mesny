@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>AVATAR REDES (1)</title>
+	<defs>
+		<image  width="32" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IB2cksfwAAAU1QTFRFdFlGc1hFemFPl4N1qJeLppWJlH9wdFlHkHpr8O3r8/Hv3dbR497a+ff23NXQhm9f9/X0loFzdFpH//7+z8a/2dLN/v39q5qP9vTy6+fkdlxKe2JQmIR3fWRSk35v+vn57eroeV9Nn4x/vrGo5uHe/f387erneF5MgGhW2tPO0cjBqZiMi3VldltJ8u/t7ennv7Oq////sKGW9vTzr6CVdlxJyb63qpmOl4J07OnmeF5Lxry05eDc0cjCt6mfqJeM7Ojmq5uQnIl8vrKp/Pv6eF1L7enm1MzGf2dV8e7sopCDz8bA18/Kt6ifgWlX39nV8O7sfGJRx7y0gGdWd11Lh29fdVpHd1xKwbWt/Pv7l4N0emBOgmlYg2xb7+3qgmpZ5+Lfi3Vmf2ZU2dLMs6WaiHFh08vF+fj35uHd4NrW7+3rvLCnd11Kk35wkn1uAg6FwQAAANhJREFUeJxjYCAEGAmAEaiAiZmFlY0dtwIOTi5uHl4+fpwKeAQEGYWYhUVwKhAVEweSEpJSuBRIy0gzysrJKyjiUsCkpMytwqOqpo5DgYYmr5a2jq6ePi4FBoZGIMoYqEDaxIDVFEOBmaE5kGshbGnFYG1jYmuHocDe0MHRydnBxdJV1s2dwcNTGl0Bg5c3t4+vn39AIEOQQnCIQyiGLxjDFMMZGSMioxijYxhj46IxFYBBfEJAIiNjUnIKZjhAQWpaekZmVnYOTgWMjLK5eYiwGGxJbqAUAAC0Qh8cWYed8gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
