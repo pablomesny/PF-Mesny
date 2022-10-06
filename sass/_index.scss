@@ -1,0 +1,95 @@
+.div__carousel {
+    max-width: 45rem;
+    max-height: 35rem;
+}
+
+.btn-primary {
+    --bs-btn-border-color: #715845;
+    --bs-btn-bg: #715845;
+    --bs-btn-hover-bg: #684556;
+    --bs-btn-hover-border-color: #684556;
+    --bs-btn-active-bg: #706765;
+    --bs-btn-active-border-color: #716765;
+    --bs-btn-disabled-bg: #715845;
+    --bs-btn-disabled-border-color: #715845;
+  }
+
+  .carousel-inner {
+    max-width: 45rem;
+    max-height: 35rem;
+  }
+
+  .carousel-inner .carousel-item {
+    height: 100%;
+    width: 100%;
+    & img {
+        object-fit: contain;
+    }
+  }
+
+  .main__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__divBoxImage {
+        margin: 5% 5% 5% auto;
+    }
+    &__divImage {
+        height: 600px;
+        width: 25vw;
+        border-radius: 30px;
+    }
+    &__divText {
+        background-color: $mainColor;
+        flex-direction: column;
+        align-self: center;
+        border-radius: 30px;
+        padding: 10px 5rem;
+        max-width: 600px;
+    }
+    &__div__divh2 {
+        color: $secColor;
+        text-align: center;
+        text-decoration: underline 2px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    &__div__divParagraph {
+        margin: 20px 0px;
+    }
+    &__div__divText1 {
+        color: $secColor;
+        text-align: center;
+    }
+    &__div__divButton {
+        margin: 20px 0px;
+    }
+    &__div__divButtonText {
+        color: $secColor;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        &--a {
+            color: $secColor;
+        }
+    }
+  }
+
+  .section__article {
+    display: flex;
+    flex-direction: column;
+    &__div__p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 600;
+    }
+    &__div--span {
+        text-decoration: line-through 1px solid;
+        color: $quaColor;
+        margin-left: 2rem;
+    }
+    &__div--description {
+        margin-top: 10px;
+    }
+  }

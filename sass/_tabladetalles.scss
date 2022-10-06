@@ -1,0 +1,50 @@
+.main{
+    &__tablaDeTalles{
+        &__div {
+            border-radius: 30px;
+            background-color: $mainColor;
+            height: 3rem;
+            text-decoration: underline 3px $secColor;
+            width: 30rem;
+        }
+        &--h3 {
+            font-weight: 700;
+            color: $secColor;
+            font-size: 25px;
+        }
+    }
+    &__div{
+        &__div__image--tt {
+            height: 350px;
+            width: auto;
+        }
+        &__div--tablediv {
+            height: 350px;
+        }
+        &__div__table--text {
+            text-align: center;
+            padding: 25px 35px;
+            border: 1px solid $black;
+        }
+        &__tablaDeTalles{
+            &__consulta {
+                background-color: $mainColor;
+                border-radius: 30px;
+                width: 35rem;
+                &__text {
+                    color: $secColor;
+                    &--underline {
+                        text-decoration: underline 3px $secColor;
+                    }
+                    &--href {
+                        text-decoration: none;
+                        color: $secColor;
+                        &:hover {
+                            color: $secColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,218 @@
+.div__carousel {
+  max-width: 45rem;
+  max-height: 35rem;
+}
+
+.btn-primary {
+  --bs-btn-border-color: #715845;
+  --bs-btn-bg: #715845;
+  --bs-btn-hover-bg: #684556;
+  --bs-btn-hover-border-color: #684556;
+  --bs-btn-active-bg: #706765;
+  --bs-btn-active-border-color: #716765;
+  --bs-btn-disabled-bg: #715845;
+  --bs-btn-disabled-border-color: #715845;
+}
+
+.carousel-inner {
+  max-width: 45rem;
+  max-height: 35rem;
+}
+
+.carousel-inner .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.carousel-inner .carousel-item img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main__div__divBoxImage {
+  margin: 5% 5% 5% auto;
+}
+.main__div__divImage {
+  height: 600px;
+  width: 25vw;
+  border-radius: 30px;
+}
+.main__div__divText {
+  background-color: #715845;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 30px;
+  padding: 10px 5rem;
+  max-width: 600px;
+}
+.main__div__div__divh2 {
+  color: #FFFAFA;
+  text-align: center;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.main__div__div__divParagraph {
+  margin: 20px 0px;
+}
+.main__div__div__divText1 {
+  color: #FFFAFA;
+  text-align: center;
+}
+.main__div__div__divButton {
+  margin: 20px 0px;
+}
+.main__div__div__divButtonText {
+  color: #FFFAFA;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+.main__div__div__divButtonText--a {
+  color: #FFFAFA;
+}
+
+.section__article {
+  display: flex;
+  flex-direction: column;
+}
+.section__article__div__p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+.section__article__div--span {
+  -webkit-text-decoration: line-through 1px solid;
+          text-decoration: line-through 1px solid;
+  color: #838383;
+  margin-left: 2rem;
+}
+.section__article__div--description {
+  margin-top: 10px;
+}
+
+.card--custom {
+  width: 14rem;
+}
+
+.main--catalogo {
+  justify-content: space-around;
+}
+
+.main__div--catalogoForm {
+  height: 100%;
+  font-weight: 800;
+}
+
+.main__div__form__div__input {
+  width: 100%;
+}
+
+.main__div--catalogoClothes {
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+}
+
+.main__div__divImage--qs {
+  width: 100%;
+  height: 43rem;
+  border-radius: 30px;
+}
+
+.main__divText--qs {
+  background-color: #715845;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.main__div__p--qs {
+  line-height: 20px;
+}
+
+.main__tablaDeTalles__div {
+  border-radius: 30px;
+  background-color: #715845;
+  height: 3rem;
+  -webkit-text-decoration: underline 3px #FFFAFA;
+          text-decoration: underline 3px #FFFAFA;
+  width: 30rem;
+}
+.main__tablaDeTalles--h3 {
+  font-weight: 700;
+  color: #FFFAFA;
+  font-size: 25px;
+}
+.main__div__div__image--tt {
+  height: 350px;
+  width: auto;
+}
+.main__div__div--tablediv {
+  height: 350px;
+}
+.main__div__div__table--text {
+  text-align: center;
+  padding: 25px 35px;
+  border: 1px solid #000000;
+}
+.main__div__tablaDeTalles__consulta {
+  background-color: #715845;
+  border-radius: 30px;
+  width: 35rem;
+}
+.main__div__tablaDeTalles__consulta__text {
+  color: #FFFAFA;
+}
+.main__div__tablaDeTalles__consulta__text--underline {
+  -webkit-text-decoration: underline 3px #FFFAFA;
+          text-decoration: underline 3px #FFFAFA;
+}
+.main__div__tablaDeTalles__consulta__text--href {
+  text-decoration: none;
+  color: #FFFAFA;
+}
+.main__div__tablaDeTalles__consulta__text--href:hover {
+  color: #FFFAFA;
+}
+
+.main__div--formClubMona {
+  flex-direction: column;
+  align-items: center;
+  color: #FFFAFA;
+  background-color: #715845;
+  border-radius: 30px;
+  line-height: 50px;
+  height: 600px;
+}
+.main__div__div--imageClubMonaMain {
+  height: 300px;
+  border-radius: 30px;
+}
+.main__div__div__div--imageClubMonaAhora12 {
+  height: 300px;
+  border-radius: 30px;
+}
+.main__div__div__div--imageClubMonaCA {
+  height: 300px;
+  border-radius: 30px;
+}
+
+.formClubMona {
+  width: 100%;
+  height: 2rem;
+}
+.formClubMona--button {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+/* RESET CSS */
 html,
 body,
 div,
@@ -85,6 +300,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
+
 article,
 aside,
 details,
@@ -98,17 +314,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -116,314 +336,18 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* GLOBAL */
-
+/* GLOBAL Y GENERAL */
 * {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
 }
-
-/* CLASSES */
-
-.header--logoMain {
-  height: 100px;
-  width: auto;
-  transition: all .2s ease-in-out;
-}
-
-.header--logoMain:hover {
-  transform: scale(0.9);
-}
-
-.div__h2{
-  background-color: #000000;
-  overflow: hidden;
-}
-
-.h2--important {
-  background-color: #000000;
-  color: #fffAFA;
-  display: inline-block;
-  font-weight: 700;
-  animation: marquee 13s linear infinite;
-  padding-left: 100%;
-  white-space: nowrap;
-}
-
-/* ----------SOLUCION PROVISORIA ANTES DE GRID PARA CLAVAR EL FOOTER ABAJO DE TODO */
-.footer--fixed {
-  position: fixed;
-}
-
-
-.footer__div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer__h3--contacto{
-  height: 15px;
-  width: 15px;
-  margin-left: 10px;
-}
-
-/* CLASSES INDEX */
-
-.div__carousel {
-  max-width: 45rem;
-  max-height: 35rem;
-}
-
-.btn-primary {
-  --bs-btn-border-color: #715845;
-  --bs-btn-bg: #715845;
-  --bs-btn-hover-bg: #684556;
-  --bs-btn-hover-border-color: #684556;
-  --bs-btn-active-bg: #706765;
-  --bs-btn-active-border-color: #716765;
-  --bs-btn-disabled-bg: #715845;
-  --bs-btn-disabled-border-color: #715845;
-}
-
-.carousel-inner {
-  max-width: 45rem;
-  max-height: 35rem;
-}
-.carousel-inner .carousel-item {
-  height: 100%;
-  width: 100%;
-}
-
-.carousel-inner .carousel-item img {
-  object-fit: contain;
-}
-
-.main__div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.main__div__divBoxImage {
-  margin: 5% 5% 5% auto;
-}
-
-.main__div__divImage {
-  height: 600px;
-  width: 25vw;
-  border-radius: 30px;
-}
-
-.main__div__divText {
-  background-color: #715845;
-  flex-direction: column;
-  align-self: center;
-  border-radius: 30px;
-  padding: 10px 5rem;
-  max-width: 600px;
-}
-
-
-
-.main__div__div__divh2 {
-  color: #fffAFA;
-  text-align: center;
-  text-decoration: underline 2px;
-  font-size: 20px;
-  font-weight: 800;
-}
-
-.main__div__div__divParagraph {
-  margin: 20px 0px;
-}
-
-.main__div__div__divText1 {
-  color: #fffAFA;
-  text-align: center;
-}
-
-.main__div__div__divButton {
-  margin: 20px 0px;
-}
-
-.main__div__div__divButtonText {
-  color: #fffAFA;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-}
-
-.main__div__div__divButtonText--a {
-  color: #fffAFA;
-}
-
-.section__article {
-  display: flex;
-  flex-direction: column;
-}
-
-.section__article__div__p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 600;
-}
-
-.section__article__div--span {
-  text-decoration: line-through 1px solid;
-  color:#838383;
-  margin-left: 2rem;
-}
-
-.section__article__div--description {
-  margin-top: 10px;
-}
-
-/* CLASSES CATALOGO */
-
-.card--custom{
-  width: 14rem;
-}
-
-.main--catalogo{
-  justify-content: space-around;
-}
-
-.main__div--catalogoForm {
-  height: 100%;
-  font-weight: 800;
-}
-
-.main__div__form__div__input {
-  width: 100%;
-}
-
-
-
-.main__div--catalogoClothes {
-  display: flex;
-  flex-direction: column;
-  margin: 25px auto;
-}
-
-/* CLASSES QUIENES SOMOS */
-
-.main__div__divImage--qs {
-  width: 100%;
-  height: 43rem; 
-  border-radius: 30px;
-}
-
-.main__divText--qs {
-  background-color: #715845;
-  border-radius: 30px;
-  flex-direction: column;
-}
-
-.main__div__p--qs {
-  line-height: 20px;
-}
-
-/* CLASSES TABLA DE TALLES */
-
-.main__tablaDeTalles__div {
-  border-radius: 25px;
-  background-color: #715845;
-  height: 3rem;
-  text-decoration: underline 3px #fffafa;
-  width: 30rem;
-}
-
-.main__tablaDeTalles--h3 {
-  font-weight: 700;
-  color: #fffAFA;
-  font-size: 25px;
-}
-
-.main__div__div__image--tt {
-  height: 350px;
-  width: auto;
-}
-
-.main__div__div--tablediv {
-  height: 350px;
-}
-
-.main__div__div__table--text {
-  text-align: center;
-  padding: 25px 35px;
-  border: 1px solid #000000;
-}
-
-.main__div__tablaDeTalles__consulta {
-  background-color: #715845;
-  border-radius: 25px;
-  width: 35rem;
-}
-
-.main__div__tablaDeTalles__consulta__text {
-  color:#fffAFA;
-}
-
-.main__div__tablaDeTalles__consulta__text--underline {
-  text-decoration: underline 3px #fffafa;
-}
-
-.main__div__tablaDeTalles__consulta__text--href {
-  text-decoration: none;
-  color: #fffafa;
-}
-
-.main__div__tablaDeTalles__consulta__text--href:hover {
-  color: #fffafa;
-}
-
-/* CLASSES CLUB MONA */
-
-.main__div--formClubMona{
-  flex-direction: column;
-  align-items: center;
-  color: #fffAFA;
-  background-color: #715845;
-  border-radius: 30px;
-  line-height: 50px;
-  height: 600px;
-}
-
-.main__div__div--imageClubMonaMain {
-  height: 300px;
-  border-radius: 30px;
-}
-
-
-.main__div__div__div--imageClubMonaAhora12 {
-  height: 300px;
-  border-radius: 30px;
-}
-
-.main__div__div__div--imageClubMonaCA {
-  height: 300px;
-  border-radius: 30px;
-}
-
-.formClubMona {
-  width: 100%;
-  height: 2rem;
-}
-
-.formClubMona--button {
-  height: 2rem;
-  line-height: 2rem;
-}
-
-/* ETIQUETAS GLOBALES */
 
 html {
   height: 100%;
@@ -434,7 +358,7 @@ body {
   flex-direction: column;
   width: 100vw;
   max-width: 100%;
-  background-color: #fffAFA;
+  background-color: #FFFAFA;
   min-height: 100vh;
 }
 
@@ -442,12 +366,10 @@ main {
   flex: 1;
 }
 
-
-header div{
+header div {
   display: flex;
   justify-content: space-between;
 }
-
 header div h1 {
   text-align: center;
   align-self: flex-end;
@@ -458,26 +380,24 @@ header div h1 {
 
 .body__nav {
   background-color: #715845;
-  display: inline-block;
-  width: 100%;
-  padding: 0;
 }
 
-.nav__div__div__li--a{
-  color: #fffAFA;
-  text-decoration: underline 2px #fffAFA;
+.nav__div__div__li--a {
+  color: #FFFAFA;
+  -webkit-text-decoration: underline 2px #FFFAFA;
+          text-decoration: underline 2px #FFFAFA;
 }
-
-.nav__div__div__li--a:hover{
-  color: #bbb;
-  text-decoration: underline 2px #bbb;
+.nav__div__div__li--a:hover {
+  color: #BBB;
+  -webkit-text-decoration: underline 2px #BBB;
+          text-decoration: underline 2px #BBB;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #fffAFA;
+  color: #FFFAFA;
   background-color: #715845;
   margin-top: 50px;
   position: relative;
@@ -486,16 +406,56 @@ footer {
   max-width: 100%;
   justify-content: center;
 }
-
 footer h3 {
   font-weight: normal;
 }
-footer h3 a{
-  color: #fffAFA;
+footer h3 a {
+  color: #FFFAFA;
 }
 
-@keyframes marquee{
-  100%{
+.header--logoMain {
+  height: 100px;
+  width: auto;
+  transition: all 0.2s ease-in-out;
+}
+.header--logoMain:hover {
+  transform: scale(0.9);
+}
+
+.div__h2 {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.h2--important {
+  background-color: #000000;
+  color: #FFFAFA;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-animation: marquee 13s linear infinite;
+          animation: marquee 13s linear infinite;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+@-webkit-keyframes marquee {
+  100% {
     transform: translate(-100%, 0);
   }
 }
+@keyframes marquee {
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.footer__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer__h3--contacto {
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */

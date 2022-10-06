@@ -1,0 +1,8 @@
+@mixin marquee {
+    animation: marquee 13s linear infinite;
+    @keyframes marquee {
+        100%{
+            transform: translate(-100%, 0);
+        }
+    }
+}

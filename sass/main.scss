@@ -1,0 +1,245 @@
+// VARIABLES
+$mainColor: #715845;
+$secColor: #FFFAFA;
+$thiColor: #BBB;
+$quaColor: #838383;
+$black: #000000;
+
+// IMPORTS
+@import 'mixins';
+@import 'index';
+@import 'catalogo';
+@import 'quienessomos';
+@import 'tabladetalles';
+@import 'clubmona';
+
+/* RESET CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL Y GENERAL */
+
+* {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    background-color: $secColor;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        text-align: center;
+        align-self: flex-end;
+        font-size: 35px;
+        color: $mainColor;
+        font-weight: bold;
+    }
+}
+
+.body__nav {
+    background-color: $mainColor;
+}
+
+.nav__div__div__li--a {
+    color: $secColor;
+    text-decoration: underline 2px $secColor;
+    &:hover {
+        color: $thiColor;
+        text-decoration: underline 2px $thiColor;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $secColor;
+    background-color: $mainColor;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    h3 {
+        font-weight: normal;
+        a {
+            color: $secColor;
+        }
+    }
+}
+
+.header--logoMain {
+    height: 100px;
+    width: auto;
+    transition: all .2s ease-in-out;
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.div__h2 {
+    background-color: $black;
+    overflow: hidden;
+}
+
+.h2--important {
+    background-color: $black;
+    color: $secColor;
+    display: inline-block;
+    font-weight: 700;
+    @include marquee;
+    padding-left: 100%;
+    white-space: nowrap;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__h3--contacto {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+
