@@ -90,7 +90,7 @@
 .main__div__containerIframe__div__iframe {
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 .section__article {
@@ -136,18 +136,19 @@
   margin: 25px auto;
 }
 
+.main__qs__gif {
+  border-radius: 30px;
+}
 .main__div__divImage--qs {
   width: 100%;
   height: 43rem;
   border-radius: 30px;
 }
-
 .main__divText--qs {
   background-color: #715845;
   border-radius: 30px;
   flex-direction: column;
 }
-
 .main__div__p--qs {
   line-height: 20px;
 }
@@ -415,7 +416,7 @@ footer {
   text-align: center;
   color: #FFFAFA;
   background-color: #715845;
-  margin-top: 50px;
+  margin-top: 1rem;
   position: relative;
   bottom: 0;
   width: 100vw;
