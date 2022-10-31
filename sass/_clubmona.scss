@@ -6,20 +6,20 @@
         background-color: $mainColor;
         border-radius: 30px;
         line-height: 50px;
-        height: 600px;
+        height: 100%;
     }
     &__div{
         &--imageClubMonaMain {
-            height: 300px;
+            height: 100%;
             border-radius: 30px;
         }
         &__div{
-            &--imageClubMonaAhora12 {
-                height: 300px;
-                border-radius: 30px;
-            }
-            &--imageClubMonaCA {
-                height: 300px;
+            &--imageClubMona {
+                display: block;
+                height: auto;
+                width: auto;
+                max-height: 210px;
+                max-width: 210px;
                 border-radius: 30px;
             }
         }
